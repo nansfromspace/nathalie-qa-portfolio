@@ -4,9 +4,10 @@ This repository contains my personal QA portfolio website.
 
 The website showcases:
 - A short introduction about me and my QA background
+- My resume (experience, education and courses)
 - My skills and tools
 - Contact information
-- A Projects section with links to my automation and API testing repositories
+- A Projects section with links to my automation and development repositories
 
 ## Built with
 - HTML

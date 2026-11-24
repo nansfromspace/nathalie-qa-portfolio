@@ -352,3 +352,39 @@ body::after{
   outline: 3px solid rgba(120, 255, 180, 0.7);
 }
 
+/* cards with text content (resume / projects) */
+.window-grid--3{
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.window-card--text .window-title{
+  padding-bottom: 12px;
+}
+
+.window-body{
+  margin: 0;
+  padding: 0 18px 26px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(0,0,0,0.62);
+}
+
+.window-body strong{
+  color: rgba(0,0,0,0.78);
+}
+
+.projects-note{
+  margin: 0;
+  padding: 0 24px 32px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+@media (max-width: 900px){
+  .window-grid--3{
+    grid-template-columns: 1fr;
+  }
+}
+

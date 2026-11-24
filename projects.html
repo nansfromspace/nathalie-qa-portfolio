@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Projects</title>
+  <title>Projects — Nathalie Giuliani</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -16,15 +16,71 @@
   </header>
 
   <main class="container">
-    <section class="card">
-      <h2>My projects</h2>
-      <ul data-testid="projects-list">
-        <li>API Testing with Postman</li>
-        <li>Robot Framework basics</li>
-        <li>Cypress E2E practice</li>
-      </ul>
+
+    <div class="contact-header">
+      <h2 class="contact-title">My projects</h2>
+      <p class="contact-subtitle">
+        Things I've built while studying QA and development. Click a card to see the code on GitHub.
+      </p>
+    </div>
+
+    <section class="window-grid window-grid--3" data-testid="projects-list" aria-label="Projects">
+
+      <a class="window-card window--pink window-card--text" href="https://github.com/nansfromspace/automationexercise-cypress" target="_blank" rel="noopener">
+        <div class="window-top">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+        <h3 class="window-title">Cypress E2E</h3>
+        <p class="window-body">End-to-end test automation with Cypress on a demo e-commerce site.</p>
+      </a>
+
+      <a class="window-card window--blue window-card--text" href="https://github.com/nansfromspace/cypress-basico-v2" target="_blank" rel="noopener">
+        <div class="window-top">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+        <h3 class="window-title">Cypress Basics</h3>
+        <p class="window-body">Exercises from the Talking About Testing basic Cypress course.</p>
+      </a>
+
+      <a class="window-card window--pink window-card--text" href="https://github.com/nansfromspace/lean-belas-artes" target="_blank" rel="noopener">
+        <div class="window-top">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+        <h3 class="window-title">Lean — Belas Artes</h3>
+        <p class="window-body">College assignment developed in Python.</p>
+      </a>
+
+      <a class="window-card window--blue window-card--text" href="https://github.com/nansfromspace/conexao-verde" target="_blank" rel="noopener">
+        <div class="window-top">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+        <h3 class="window-title">Conexão Verde</h3>
+        <p class="window-body">Front-end website project built with HTML and CSS.</p>
+      </a>
+
+      <a class="window-card window--pink window-card--text" href="https://github.com/nansfromspace/calculadora-imc" target="_blank" rel="noopener">
+        <div class="window-top">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+        <h3 class="window-title">Calculadora IMC</h3>
+        <p class="window-body">BMI calculator built with HTML, CSS and JavaScript.</p>
+      </a>
+
+      <a class="window-card window--blue window-card--text" href="https://github.com/nansfromspace/Recode" target="_blank" rel="noopener">
+        <div class="window-top">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+        <h3 class="window-title">Recode Pro</h3>
+        <p class="window-body">My first projects from the Recode Pro full-stack development course.</p>
+      </a>
+
     </section>
+
+    <p class="projects-note">
+      I also practice API testing with Postman and Insomnia, and I'm currently learning test automation with Robot Framework.
+    </p>
+
   </main>
-  
+
 </body>
 </html>
